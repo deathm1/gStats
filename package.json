@@ -1,6 +1,6 @@
 {
   "name": "gStats",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Game Statistics by koshurTech",
   "main": "server.js",
   "scripts": {
