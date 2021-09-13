@@ -1,0 +1,1 @@
+gStats is a video game analysis system designed and developed by koshur tech.
