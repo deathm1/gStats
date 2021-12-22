@@ -1,20 +1,27 @@
 {
-  "name": "gStats",
-  "version": "0.0.7",
-  "description": "Game Statistics by koshurTech",
-  "main": "server.js",
+  "name": "gamestats",
+  "version": "1.0.0",
+  "description": "koshurTech - Game statistics tool",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "author": "koshurTech",
+  "author": "Harsh Handoo",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.4",
+    "axios": "^0.24.0",
     "colors": "^1.4.0",
-    "dotenv": "^10.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^6.0.5",
-    "unirest": "^0.6.0",
-    "uuid": "^8.3.2"
+    "fs": "^0.0.1-security",
+    "ini": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "url": "^0.11.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
